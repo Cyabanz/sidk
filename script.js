@@ -98,7 +98,7 @@ window.onload = function() {
   
     async function init() {
       particlesArray = [];
-      const svgPaths = await loadSVG('https://upload.wikimedia.org/wikipedia/fr/5/5b/Riot_Games_2022.svg'); 
+      const svgPaths = await loadSVG('https://assets.codepen.io/8292695/fitness-widget.svg'); 
       
       let allPositions = [];
       let minX = canvas.width, maxX = 0, minY = canvas.height, maxY = 0;
